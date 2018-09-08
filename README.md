@@ -17,8 +17,29 @@ I provide my work environment for references.
 # Hadware
 CPU : i7-3740qm  
 RAM : 8G  
-the whole image processing/training took around 5 minutes.
+The whole image processing/training took around 5 minutes.
 
 
 # Dependencies
-to run the code you'll have to install Tensorflow, Keras, OpenCV and Numpy.
+To run the code you'll have to install Tensorflow, Keras, OpenCV and Numpy.
+
+
+# Training
+- Data Preprocessing phase
+  > 1. Download the dataset
+  > 2. Run the mit_data_preprocessing script
+  > 3. Modify the save_to path to whatever you like
+  
+- Training phase
+  > 1. Run the train_face_id script
+  > 2. Wait untill the training process finishes. it will save the model automatically afterwards.
+  
+ # Testing
+- Adding the referenc phase
+  > 1. Add a simple picture of the referenc person on any directory
+  > 2. Add the path of the referenc to the test_face_id script
+  
+- Real-time testing phase
+  > 1. Hook up a camera into your workstation 
+  > 2. Run test_face_id script
+
