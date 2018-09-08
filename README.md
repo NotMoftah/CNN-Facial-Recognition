@@ -12,11 +12,10 @@ This project aims to recognize faces with CNN implemented by Keras. I also imple
 
 # Environment
 I provide my work environment for references.
-
-
-# Hadware
-CPU : i7-3740qm  
-RAM : 8G  
+```sh
+$ CPU : i7-3740qm
+$ RAM : 8G
+```
 The whole image processing/training took around 5 minutes.
 
 
@@ -43,3 +42,6 @@ To run the code you'll have to install Tensorflow, Keras, OpenCV and Numpy.
   > 1. Hook up a camera into your workstation 
   > 2. Run test_face_id script
 
+
+# Final result
+![Real-time test](https://github.com/YuP0ra/CNN-Facial-Recognition/blob/master/README/final_result.png)
